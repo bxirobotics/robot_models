@@ -1,6 +1,6 @@
 # Introduction
-Description files of [`BXI robots`](https://bxirobotics.com/).     
-Both URDF & MJCF files are prepared.
+Robot description files by [`BXI Robotics`](https://bxirobotics.com/).     
+Both URDF & MJCF files are included.
 
 ## Robots:
 * [`Elf2 with 25 DOF`](https://github.com/bxirobotics/robot_models/tree/main/elf2_dof25)
