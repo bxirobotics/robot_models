@@ -4,7 +4,7 @@ Requires MuJoCo 2.3.3 or later.
 
 ## Overview
 
-This package contains a humanoid robot description (MJCF) of BXI Elf2 developed by [BXI Robotics](https://bxirobotics.com).
+This package contains a humanoid robot description (MJCF) of BXI Elf_25 developed by [BXI Robotics](https://bxirobotics.com).
 
 <p float="left">
   <img src="elf2_dof25.png" width="400">
