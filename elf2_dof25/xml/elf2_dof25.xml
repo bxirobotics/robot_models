@@ -28,7 +28,7 @@
   <asset>
     <material name="black" rgba="0.2 0.2 0.2 1"/>
     <material name="metal" rgba="0.2 0.2 0.2 1"/>
-	<material name="plastic" rgba="0.3 0.4 0.4 1"/>
+  	<material name="plastic" rgba="0.3 0.4 0.4 1"/>
 	
     <mesh name="base_link" file="base_link.STL"/>
     <mesh name="l_hip_z_link" file="l_hip_z_link.STL"/>
@@ -56,6 +56,7 @@
     <mesh name="r_shld_z_link" file="r_shld_z_link.STL"/>
     <mesh name="r_elb_y_link" file="r_elb_y_link.STL"/>
     <mesh name="r_elb_z_link" file="r_elb_z_link.STL"/>
+    <mesh name="logo_link" file="logo_link.STL"/>
 
     <texture type="skybox" builtin="gradient" width="512" height="512" rgb1=".4 .6 .8"   rgb2="0 0 0" />
     <texture name="texgeom" type="cube" builtin="flat" mark="cross" width="128"  height="128"  rgb1="0.6 0.6 0.6" rgb2="0.6 0.6 0.6" markrgb="1 1 1" />
@@ -197,6 +198,10 @@
                   </body>
                 </body>
               </body>
+            </body>
+            <body name="logo_link" pos="0.068 -0.025 0.07" gravcomp="0">
+              <inertial pos="-5.192e-09 -1.999e-09 -0.0000001" quat="0.999993 -0.00000001 -0.0000002 -0.0000005" mass="0.0100" diaginertia="0.00000001 0.00000001 0.00000001"/>
+              <geom type="mesh" material="black" mesh="logo_link"/>
             </body>
           </body>
         </body>
