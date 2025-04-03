@@ -13,13 +13,23 @@ Both URDF & MJCF files are prepared.
 </p>
 
 
-# Usage Display Robot Description
-## for MJCF file, with Mojuco py:
+# Usage | Display Robot Description
+## Display Model 
+MJCF file, with Mojuco py:
 ```
 python -m mujoco.viewer --mjcf path/to/robot_models/elf2_dof25/xml/scene.xml     
 ```
-## for URDF file, with [yourdfpy](https://github.com/clemense/yourdfpy):
+URDF file, with [yourdfpy](https://github.com/clemense/yourdfpy):
 ```
 yourdfpy  path/to/robot_models/elf2_dof25/urdf/elf2_dof25.urdf    
 ```
-    
+## Use Model Files    
+Import model files as python submodule with [robot_descriptions.py](https://github.com/robot-descriptions/robot_descriptions.py)   
+
+Please refer to robot_descriptions.py docs.    
+Show description:
+```
+pip install robot_descriptions
+ython -m robot_descriptions show_in_meshcat elf2_description  
+```
+
